@@ -1,0 +1,16 @@
+{
+  "name": "project-week-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "node ./public/js/test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  }
+}

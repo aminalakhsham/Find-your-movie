@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Movie Sherch</title>
+  </head>
+  <body>
+    <header>
+      <nav class="search">
+        <label class="search__siteTitle" for="search">Movie Search</label>
+        <form class="search__form">
+          <input
+            type="text"
+            name="name Movie"
+            placeholder="Movie Name"
+            class="search__form--name"
+            id="search"
+          />
+          <a href="#result" class="a"><input type="submit" value="Search" class="search__form--submit"/></a>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section class="welcomeSection">
+        <h1 class="welcomeSection__color welcomeSection--fontSizeBig">Welcome</h1>
+        <h3 class="welcomeSection__color welcomeSection--fontSizeSmal">
+          Movie site
+        </h3>
+      </section>
+      <div class="SectionTwoTitel"></div>
+      <section class="movieDataSection"></section>
+    </main>
+    <footer></footer>
+    <script src="../config.js"></script>
+    <script src="./js/logic.js"></script>
+    <script src="./js/dom.js"></script>
+  </body>
+</html>
